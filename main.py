@@ -15,9 +15,9 @@ from telegram.ext import (
 )
 
 # Configuration
-MASDAR_URL = "http://139.99.69.196"
-USERNAME = "Waleedbhai"
-PASSWORD = "Waleedbhai"
+MASDAR_URL = "http://"
+USERNAME = "Wale"
+PASSWORD = "Wale"
 
 # Telegram Configuration
 BOT_TOKEN = "8776175904:AAENUQonxmjNmJlgaIqaPDs2jtBW7lwJ"
