@@ -20,16 +20,16 @@ USERNAME = "Waleedbhai"
 PASSWORD = "Waleedbhai"
 
 # Telegram Configuration
-BOT_TOKEN = "8513071962:AAEuk7UOeKn1eV8rzCuB9B7giHbkAIudNGM"
-CHAT_ID = "-1003247504066"
-OWNER_ID = 7095358778
+BOT_TOKEN = "8776175904:AAENUQonxmjNmJlgaIqaPDs2jtBW7lwJ"
+CHAT_ID = "-1003988057295"
+OWNER_ID = 8351501234
 
 # Number Bot HTTP URL
 NUMBER_BOT_HTTP_URL = "https://t.me/Secu"
 
 # Telegram Button URLs
-NUMBER_CHANNEL_URL = "https://t.me/EARNING_HUB_NUMBER_BOT"
-MAIN_CHANNEL_URL   = "https://t.me/spyxpremiumsmschats"
+NUMBER_CHANNEL_URL = "https://t.me/Uchiha17bot"
+MAIN_CHANNEL_URL   = "https://t.me/uciha_support"
 
 # Headers
 HEADERS = {
