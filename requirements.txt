@@ -1,0 +1,5 @@
+aiohttp==3.9.5
+beautifulsoup4==4.12.3
+requests==2.31.0
+python-telegram-bot==20.7
+pyotp==2.9.0
