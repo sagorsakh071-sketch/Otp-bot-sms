@@ -20,7 +20,7 @@ USERNAME = "Wale"
 PASSWORD = "Wale"
 
 # Telegram Configuration
-BOT_TOKEN = "8756918475:AAFHc5GI1WHvlfgWbhHibIxf3vSIgnljFok"
+BOT_TOKEN = "875691Ixf3vSIgnljFok"
 CHAT_ID = "-1003988057295"
 OWNER_ID = 8351501234
 
