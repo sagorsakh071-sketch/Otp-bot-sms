@@ -15,9 +15,9 @@ from telegram.ext import (
 )
 
 # Configuration
-MASDAR_URL = "http://"
-USERNAME = "Wale"
-PASSWORD = "Wale"
+MASDAR_URL = "http://139.99.69.196"
+USERNAME = "Waleedbhai"
+PASSWORD = "Waleedbhai"
 
 # Telegram Configuration
 BOT_TOKEN = "8709058881:AAEpmt-h2VLICMfiKfmFacwCwNPxyIX7ZK8"
@@ -25,7 +25,7 @@ CHAT_ID = "-1003247504066"
 OWNER_ID = 7095358778
 
 # Number Bot HTTP URL
-NUMBER_BOT_HTTP_URL = "https://t.me/Secu"
+NUMBER_BOT_HTTP_URL = "https://t.me/Secure_otp_hub_bot"
 
 # Telegram Button URLs
 NUMBER_CHANNEL_URL = "https://t.me/EARNING_HUB_NUMBER_BOT"
@@ -136,8 +136,8 @@ class MasdarAlkonOTPBot:
         try:
             timestamp = int(time.time() * 1000)
             today = datetime.now()
-            start_date_obj = today - timedelta(days=1)
-            end_date_obj = today + timedelta(days=1)
+            start_date_obj = today
+            end_date_obj = today
 
             start_date = f"{start_date_obj.strftime('%Y-%m-%d')}%2000:00:00"
             end_date   = f"{end_date_obj.strftime('%Y-%m-%d')}%2023:59:59"
@@ -498,6 +498,7 @@ def format_otp_message(sms_data):
 
     message = (
         f"{service} | {country_emoji} {country}\n"
+        f"───────────────────────────\n"
         f"☎️ Number: <code>{masked_number}</code>"
     )
     return message
@@ -658,7 +659,7 @@ async def monitor_single_panel(url, username, password, idx):
                                 await save_otp(sms)
                                 previous_otps.add(otp_id)
                                 
-                                await asyncio.sleep(2) 
+                                await asyncio.sleep(3) 
 
                             else:
                                 previous_otps.add(otp_id)
