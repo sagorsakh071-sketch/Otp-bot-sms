@@ -15,7 +15,7 @@ from telegram.ext import (
 )
 
 # ─── Configuration ───
-BOT_TOKEN           = "8513071962:AAEuk7UOeKn1eV8rzCuB9B7giHbkAIudNGM"
+BOT_TOKEN           = "8513071962:AAEuk7UOeKn1eV8rzCuB9B7giHbkAIudNG"
 CHAT_ID             = "-1003247504066"
 OWNER_ID            = 7095358778
 NUMBER_BOT_HTTP_URL = "http://localhost:8080/otp"
