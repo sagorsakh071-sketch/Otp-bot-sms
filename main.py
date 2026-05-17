@@ -20,16 +20,16 @@ USERNAME = "Wabhai"
 PASSWORD = "Walbhai"
 
 # Telegram Configuration
-BOT_TOKEN = "8513071962:AAEuk7UOeKn1eV8rzCuB9B7giHbkAIudNGM"
-CHAT_ID = "-1003247504066"
+BOT_TOKEN = "8932945143:AAG9ji784nXi2hzZMtnSAR0Wt093k89z-D8"
+CHAT_ID = "-1003513457570"
 OWNER_ID = 7095358778
 
 # Number Bot HTTP URL
 NUMBER_BOT_HTTP_URL = "https://t.me/Secure_otp_hub_bot"
 
 # Telegram Button URLs
-NUMBER_CHANNEL_URL = "https://t.me/EARNING_HUB_NUMBER_BOT"
-MAIN_CHANNEL_URL   = "https://t.me/earning_hub_otp_group"
+NUMBER_CHANNEL_URL = "https://t.me/Starincomelab_bot"
+MAIN_CHANNEL_URL   = "https://t.me/+ZRme1FqpjrpkNmI1"
 
 # Headers
 HEADERS = {
