@@ -12,7 +12,7 @@ from telegram.ext import (
 )
 
 # ─── Configuration ───
-BOT_TOKEN      = "YOUR_BOT_TOKEN"
+BOT_TOKEN      = "8194162003:AAFArsa7IIyjGPYselHX7OvGYi83nnXIkwc"
 OWNER_ID       = 7095358778
 SUPPORT_USER   = "@sadhin8miya"
 DATA_FILE      = "tg_checker_data.json"
