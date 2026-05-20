@@ -19,8 +19,8 @@ DATA_FILE      = "tg_checker_data.json"
 SESSION_FILE   = "tg_session"
 USERS_PER_PAGE = 10
 
-API_ID   = int(os.environ.get("API_ID", "0"))
-API_HASH = os.environ.get("API_HASH", "")
+API_ID   = int(os.environ.get("API_ID", "28786346"))
+API_HASH = os.environ.get("API_HASH", "7364888324936105dc6754101e7dd0b4")
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
