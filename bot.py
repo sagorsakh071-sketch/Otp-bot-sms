@@ -125,7 +125,7 @@ async def check_telegram_numbers(numbers):
         contacts = [
             raw_types.InputPhoneContact(
                 client_id=idx,
-                phone=f"+{re.sub(r'D', '', n)}",
+                phone=f"+{re.sub(r'\\D', '', n)}",
                 first_name=f"c{idx}", last_name=""
             ) for idx, n in enumerate(batch)
         ]
